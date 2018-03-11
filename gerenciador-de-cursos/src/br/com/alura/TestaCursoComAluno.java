@@ -28,9 +28,14 @@ public class TestaCursoComAluno {
 		
 		javaColecoes.getAlunos().forEach(aluno -> {System.out.println(aluno);});
 		
+
+		System.out.println("\nO aluno " + a1.getNome() + " esta matriculado ?");
+		System.out.println(javaColecoes.estaMatriculado(a1));
 		
-        Set<String> nomes = Collections.emptySet();
-        nomes.add("Paulo");
+		Aluno a4 = new Aluno("Rodrigo Turuni", 34672);
+
+		System.out.println("\nO aluno " + a1.getNome() + " esta matriculado ?");
+		System.out.println(javaColecoes.estaMatriculado(a4));
 
 	}
 

@@ -63,4 +63,8 @@ public class Curso {
 		this.alunos.add(aluno);
 	}
 
+	public boolean estaMatriculado(Aluno aluno) {
+		return alunos.contains(aluno);
+	}
+
 }
