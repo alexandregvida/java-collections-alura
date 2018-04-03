@@ -22,7 +22,10 @@ public class TestaBuscaAlunosNoCurso {
 		
 		System.out.println(a1.getNome());
 		
-		System.out.println(javaColecoes.buscaMatriculado(17645));
+		//System.out.println(javaColecoes.buscaMatriculado(17645));
+		
+		System.out.println("Pesquisa Aluno pela Matricula");
+		System.out.println(a1.buscaMatriculado(34672));
 	
 
 	}
